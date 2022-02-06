@@ -14,16 +14,16 @@
                             <div asp-validation-summary="All" class="text-danger"/>
 
                             <div class="form-group row">
-                                <label for="user_name" class="col-md-4 col-form-label text-md-right mt-2">User Name</label>
+                                <label asp-for="Model.Username" class="col-md-4 col-form-label text-md-right mt-2">User Name</label>
                                 <div class="col-md-6">
-                                    <input type="text" id="user_name" class="form-control" name="username">
+                                    <input type="text" asp-for="Model.Username" id="user_name" class="form-control" name="username">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="password" class="col-md-4 col-form-label text-md-right mt-2">Password</label>
+                                <label asp-for="Model.Password" class="col-md-4 col-form-label text-md-right mt-2">Password</label>
                                 <div class="col-md-6">
-                                    <input type="password" id="password" class="form-control" name="password">
+                                    <input type="password" asp-for="Model.Password" id="password" class="form-control" name="password">
                                 </div>
                             </div>
 
@@ -35,23 +35,23 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="first_name" class="col-md-4 col-form-label text-md-right mt-2">First Name</label>
+                                <label asp-for="Model.FirstName" class="col-md-4 col-form-label text-md-right mt-2">First Name</label>
                                 <div class="col-md-6">
-                                    <input type="text" id="first_name" class="form-control" name="first-name">
+                                    <input type="text" asp-for="Model.FirstName" id="first_name" class="form-control" name="first-name">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="last_name" class="col-md-4 col-form-label text-md-right mt-2">Last Name</label>
+                                <label asp-for="Model.LastName" class="col-md-4 col-form-label text-md-right mt-2">Last Name</label>
                                 <div class="col-md-6">
-                                    <input type="text" id="last_name" class="form-control" name="last-name">
+                                    <input type="text" asp-for="Model.LastName" id="last_name" class="form-control" name="last-name">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="birth_date" class="col-md-4 col-form-label text-md-right mt-2">Birthdate</label>
+                                <label asp-for="Model.Birthdate" class="col-md-4 col-form-label text-md-right mt-2">Birthdate</label>
                                 <div class="col-md-6">
-                                    <input type="date" id="birth_dateate" class="form-control" name="birthdate">
+                                    <input type="date" asp-for="Model.Birthdate" id="birthdate" class="form-control" name="birthdate">
                                 </div>
                             </div>
 

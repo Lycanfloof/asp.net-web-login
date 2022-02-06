@@ -26,6 +26,6 @@ namespace MyWebApp.ViewModels
 
         [Required]
         [DataType(DataType.DateTime)]
-        public string Birthday { get; set; }
+        public string Birthdate { get; set; }
     }
 }
