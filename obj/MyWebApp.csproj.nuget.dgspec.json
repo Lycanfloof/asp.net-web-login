@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ariep\\source\\repos\\MyWebApp\\MyWebApp.csproj": {}
+    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ariep\\source\\repos\\MyWebApp\\MyWebApp.csproj": {
+    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ariep\\source\\repos\\MyWebApp\\MyWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj",
         "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\ariep\\source\\repos\\MyWebApp\\MyWebApp.csproj",
-        "packagesPath": "C:\\Users\\ariep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ariep\\source\\repos\\MyWebApp\\obj\\",
+        "projectPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ariep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
