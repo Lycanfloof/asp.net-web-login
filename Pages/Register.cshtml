@@ -9,7 +9,10 @@
             <div class="card">
                 <div class="card-header">Sign Up</div>
                     <div class="card-body">
-                        <form name="sign-up-form">
+                        <form name="sign-up-form" method="post">
+
+                            <div asp-validation-summary="All" class="text-danger"/>
+
                             <div class="form-group row">
                                 <label for="user_name" class="col-md-4 col-form-label text-md-right mt-2">User Name</label>
                                 <div class="col-md-6">
