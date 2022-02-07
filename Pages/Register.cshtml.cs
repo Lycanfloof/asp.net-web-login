@@ -13,7 +13,7 @@ namespace MyWebApp.Pages
         public UserManager<IdentityUser> userManager;
         public SignInManager<IdentityUser> signInManager;
 
-        public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager) 
+        public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
@@ -23,9 +23,9 @@ namespace MyWebApp.Pages
         {
         }
 
-        public async Task<IActionResult> OnPostAsync() 
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 var user = new IdentityUser()
                 {
@@ -33,10 +33,10 @@ namespace MyWebApp.Pages
                 };
 
                 var result = await userManager.CreateAsync(user, Model.Password);
-                if (result.Succeeded) 
+                if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, false);
-                    return RedirectToPage("Index");
+                    return RedirectToPage("Privacy");
                 }
 
                 foreach (var error in result.Errors) 
@@ -44,7 +44,6 @@ namespace MyWebApp.Pages
                     ModelState.AddModelError("", error.Description);
                 }
             }
-
             return Page();
         }
     }
