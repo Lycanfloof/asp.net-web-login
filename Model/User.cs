@@ -14,6 +14,7 @@ namespace MyWebApp.Model
         [Required]
         public string? LastName { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         public DateTime? BirthdayDate { get; set; }
     }
 }
