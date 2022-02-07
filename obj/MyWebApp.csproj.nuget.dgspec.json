@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj": {}
+    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj": {
+    "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\MyWebApp\\MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\MyWebApp\\MyWebApp.csproj",
         "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\MyWebApp.csproj",
+        "projectPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\MyWebApp\\MyWebApp.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\asp.net-web-login\\obj\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\MyWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,22 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
