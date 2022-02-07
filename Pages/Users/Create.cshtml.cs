@@ -35,7 +35,7 @@ namespace MyWebApp.Pages.Users
             {
                 return Page();
             }
-
+            
             _context.User.Add(User);
             await _context.SaveChangesAsync();
 
